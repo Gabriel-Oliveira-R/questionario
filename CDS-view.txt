@@ -1,0 +1,7 @@
+1.É possível criar uma CDS View Extension e acrescentar novos campos em uma CDS.
+
+2.Primeiro você cria um CDS do tipo 'table function', neste CDS table function você vai definir os parâmetros de entrada e as colunas de saída 
+e também vai definir um método em uma classe que será o responsável por fazer a seleção na view, depois você deve criar uma classe e nesta classe criar um método AMDP.
+No método AMDP você faz a seleção na calculation view considerando os parâmetros de entrada e as colunas de saída do CDS.
+
+3.BOPF é um framework da SAP que é orientado a objeto e permite a abstração e manipulação de entidade que representam as regras do negócio.
