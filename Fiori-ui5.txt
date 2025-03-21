@@ -1,0 +1,11 @@
+1.Não desenvolvi aplicações Fiori FreeStyle. Já desenvolvi apps SAPUI5
+
+2.Os códigos Fiori são armazenados em repositórios BSP após a realização de um deploy. Este repositório por sua vez é um objeto SAP
+que possui o controle de versão da própria SAP através de requests. Mas mesmo com esta função muitas vezes é necessário a utilização de um projeto git
+para o armazenamento dos apps Fiori, tendo em vista que após o deploy os arquivos são modificados. Mesmo sendo possível baixar os arquivos que estão no BSP,
+não é muito recomendado, pois o programa /ui5/ui5_repository_load pode gerar códigos desnecessários no arquivo de dowload.
+
+3.Na JS view podemos ter processamento de dados enquanto na XML view não é possível, fazendo com que todo o processamento dos dados fiquem na controller.
+Em uma view XML os objetos são mais fáceis de identificar seus elementos e propriedades, além de ser possível controlar muita coisa nela devido ao seu vínculo com o model.
+
+4.List report, Worklist, Object page, Overview page, Analytical list page.
