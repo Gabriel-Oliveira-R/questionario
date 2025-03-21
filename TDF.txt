@@ -1,0 +1,33 @@
+TDF
+1. TDF é um modulo SAP focado em gestão fiscal, com o objetivo de ajudar as empresas brasileiras nesse sentido. Esse modulo é pensado em agilizar processos de gerenciamento de impostos
+e de avaliação de informações fiscais. O SAP TDF é um modulo a parte ou seja fica separado da maioria dos módulos que ficam no S4H(FI, MM, PM, etc...).
+
+
+2. Tive experiência dando manutenção no TDF na minha passagem pela Engineering, e agora estou tendo experiência dando manutenção no TDF da Copasa.
+
+
+
+3. Passo a passo:
+Customização registro 155 ECD
+
+1.Entre no Eclipse na visão do hana, logue no ambiente
+2.após isso crie uma calculation view no caminho determinado
+3.faça toda a lógica solicitada
+4.cuidado com a opção de privilegio na CV
+5.ative
+6.após isso logue no SAP
+7.crie uma external view que aponte para a sua calculation view
+8.ative
+
+9.Logue no SAP
+10.Entre na transação SPRO
+11.clique em 'IMG referência SAP'
+12.Accounting/ Tax Declaration Framework for Brazil/ Relatório
+13.Primeiro clique em 'Atualizar dados mestre dos relatórios legais'
+14.Verifique qual o ID do seu relatório pelo nome do SPED
+15.Depois clique em 'Atualizar versões e relatórios legais'
+16.Verifique qual versão do seu relatório está ativa a partir do ID do relatório e da data final
+17.Depois clique em Versão de visão 
+18.Neste cara coloque o ID do relatório, depois o registro que será modificado, depois a versão do sped que está ativa
+19.adicione no campo Versão 001.
+20.depois no campo Nome da visão coloque a sua external view.
