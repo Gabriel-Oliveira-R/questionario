@@ -1,0 +1,5 @@
+1.Verificar se as views que estão sendo selecionadas possuem placeholder, caso possuam repassar o placeholder para estas views.
+ 
+2.Para evitar consumo de memória desnecessariamente, e melhora de performance.
+
+3.Existe uma ferramenta no eclipse para analise de performance que chama PLANVIS, a partir dela é possível rodar uma seleção que ajuda a fazer a analise de performance.
