@@ -1,0 +1,29 @@
+1.Logue no SAP
+Entre na transação SEGW
+Clique em 'Create Project'
+Coloque o nome do projeto e a descrição conforme solicitado
+Não modifique os campos da parte de Attributes
+Após isso coloque o pacote que será salvo o serviço
+clique em confirmar
+clique em data model para abrir a pasta
+clique com o botão direito em entity Types e aperte em create
+defina o nome da entidade
+após isso clique em propriedades da sua entidade
+agora coloque todos os campos que serão utilizados na sua entidade e defina o tipo de dado de cada coluna
+coloque as descrições das colunas
+defina a chave da entidade
+depois disso clique em 'Genarate runtime Objects'
+verifique o nome das classes que serão criadas
+confirme
+coloque o pacote 
+confirme
+depois defina a request que será salvo o serviço
+
+
+2.É um sistema de tipos integrados que tem como função descrever todas as entidades nos metadados.
+No contexto do SAP OData o EDM é utilizado para especificar dados de entrada e saída, definir relacionamentos entre objetos(entidades),
+definir modelo de dados.
+
+3.Você pode usar a transação SAP /IWFND/GW_CLIENT, nela é possível selecionar o serviço e modificar a URI para que 
+você consiga selecionar os metadados do serviço, ou de uma entidade especifica. Também é possível modificar a URI para
+buscar os dados de uma entidade.
